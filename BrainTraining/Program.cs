@@ -9,6 +9,9 @@
 //ex1.FindRatiosOfArrayNumbers(arr);
 
 
-var arr2 = new int[5] { 140537, 24390, 6, 923, 5 };
-var ex2 = new Exercise2();
-ex2.Sum(arr2);
+//var arr2 = new int[5] { 140537, 24390, 6, 923, 5 };
+//var ex2 = new Exercise2();
+//ex2.Sum(arr2);
+String str = "11:05:45PM";
+
+Console.WriteLine(Exercise3.Print24HourFormat(str));
